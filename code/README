@@ -1,0 +1,13 @@
+The entire application is packaged into a Matlab GUIDE GUI. 
+Please open the "App_IK.m" file in Matlab and press run.
+
+A GUI will open with various input fields for adjustable parameters.
+The default parameters are able to be run imediately for a demonstration.
+
+Each aditional scripts are single functions.
+The code creates a "frames.txt" document of CSV values of the keyframes.
+
+The functional code for the GUI calling to the various functions begins on line 126 in "App_IK.m" and ends on 147.
+
+The main inverse kinematics function is "IK_GUI.m".
+The main Annimation function is "Annimate.m".
